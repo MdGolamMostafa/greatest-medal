@@ -1,11 +1,14 @@
 import React from 'react';
+import FooterPart from './FooterPart/FooterPart';
 import Header from './Header/Header';
+import ItemsPart from './ItemsPart/ItemsPart';
 
 const MainPage = () => {
     return (
         <>
-            <h1>Bismillah MainPage</h1>
             <Header/>
+            <ItemsPart/>
+            <FooterPart/>
         </>
     );
 };
