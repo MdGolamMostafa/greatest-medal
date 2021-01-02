@@ -1,0 +1,11 @@
+/* #logo-size{
+height: 125px;
+width: 400px;
+} */
+#medal-size{
+height: 125px;
+width: 450px;
+}
+.container {
+    justify-content: flex-start ;
+  }
