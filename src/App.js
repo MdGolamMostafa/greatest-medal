@@ -3,7 +3,7 @@ import MainPage from './components/MainPage/MainPage';
 
 function App() {
   return (
-    <div >
+    <div className = 'all-background-color'>
       <MainPage/>
     </div>
   );

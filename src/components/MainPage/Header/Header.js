@@ -2,20 +2,20 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Raw from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 import logo from './logo.png';
 import medal from './medal.png';
 import givenMedal from './given-medal.png';
 import './Header.css';
+
 const Header = () => {
     return (
         <Container fluid>
             <div className = 'd-flex justify-content-center'>
-                <img className="w-50 h-50 d-flex justify-content-center" src={logo} alt="Company logo"/>
+                <img className="w-50 h-50  " src={logo} alt="Company logo"/>
             </div>
             <Raw  className=" col-12 mb-5">
-                    <Col xs={4} md={3}>
-                        <img className="w-100 h-100"  src={medal} alt=""/>
+                    <Col className = 'mb-5' xs={4} md={3}>
+                        <img className="medal-size mb-4"  src={medal} alt=""/>
                     </Col>
                     <Col  xs={12} md={9}>
                         <h6 className = "font-weight-bold">

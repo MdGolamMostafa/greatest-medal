@@ -1,14 +1,13 @@
 /* #install-text{
     font-size:10;
 } */
-/* #logo-size{
-height: 125px;
-width: 400px;
-} */
-/* #medal-size{
-height: 125px;
-width: 450px;
-} */
+.medal-size{
+height: 100%;
+width: 120%;
+display:flex;
+justify-content:center;
+}
+
 
 /* .container {
     justify-content: flex-start ;
